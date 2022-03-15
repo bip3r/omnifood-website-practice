@@ -50,6 +50,7 @@ html {
   /* font-size: 10px; */
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -246,4 +247,8 @@ strong {
   /* outline: 4px dotted #e67e22;
   outline-offset: 8px; */
   box-shadow: 0 0 0 0.8rem #e67d2279;
+}
+
+.lock-scroll {
+  position: fixed;
 }
