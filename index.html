@@ -542,7 +542,7 @@
                 Healthy, tasty and hassle-free meals are waiting for you. Start
                 eating well today. You can cancel or pause anytime.
               </p>
-              <form action="#" class="cta-form">
+              <form action="#" name="sign-up" class="cta-form" netlify>
                 <div>
                   <label for="full-name">Full Name</label>
                   <input
@@ -550,6 +550,7 @@
                     id="full-name"
                     type="text"
                     placeholder="Jhon Smith"
+                    name="full-name"
                   />
                 </div>
                 <div>
@@ -559,10 +560,13 @@
                     id="email"
                     type="email"
                     placeholder="me@gmail.com"
+                    name="email"
                   />
                 </div>
                 <div>
-                  <label for="select-where"> Where did you hear from us?</label>
+                  <label for="select-where" name="select-where">
+                    Where did you hear from us?</label
+                  >
                   <select required id="select-where">
                     <option value="">Please choose one option</option>
                     <option value="friends">Friends and family</option>
